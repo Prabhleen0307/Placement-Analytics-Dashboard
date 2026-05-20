@@ -1,0 +1,41 @@
+company_id,company_name,industry,role_type,tier,package_lpa
+COMP001,Zenith Systems,Technology,SDE,Tier B,13.83
+COMP002,BluePeak Consulting,Consulting,Business Analyst,Tier A,22.09
+COMP003,Vertex Engineering,Core Engineering,Electrical Engineer,Tier B,13.19
+COMP004,Alpha Software,Technology,SDE,Tier B,14.27
+COMP005,Micro Industries,Core Engineering,Mechanical Engineer,Tier B,16.12
+COMP006,Alpha Dynamics,Core Engineering,Electrical Engineer,Tier C,8.59
+COMP007,Nova Industries,Core Engineering,Electrical Engineer,Tier C,5.09
+COMP008,Zenith Insights,Analytics,BI Analyst,Tier A,18.09
+COMP009,BluePeak Consulting,Consulting,Strategy Analyst,Tier B,17.18
+COMP010,Fusion Data Labs,Analytics,Data Analyst,Tier A,29.12
+COMP011,Vertex Dynamics,Core Engineering,Electrical Engineer,Tier A,29.21
+COMP012,Apex Engineering,Core Engineering,Mechanical Engineer,Tier B,10.81
+COMP013,Bright Infra,Core Engineering,Electrical Engineer,Tier B,12.05
+COMP014,Quantum Engineering,Core Engineering,Mechanical Engineer,Tier A,21.69
+COMP015,Quantum Advisors,Consulting,Strategy Analyst,Tier C,7.7
+COMP016,Zenith Technologies,Technology,Data Scientist,Tier B,14.88
+COMP017,Fusion Holdings,Finance,Financial Analyst,Tier C,6.36
+COMP018,Quantum Advisors,Consulting,Strategy Analyst,Tier B,10.98
+COMP019,Nexa Dynamics,Core Engineering,Mechanical Engineer,Tier A,26.17
+COMP020,Micro Insights,Analytics,BI Analyst,Tier A,24.3
+COMP021,Alpha Capital,Finance,Financial Analyst,Tier C,5.53
+COMP022,Zenith Capital,Finance,Risk Analyst,Tier B,12.05
+COMP023,Infini Partners,Consulting,Strategy Analyst,Tier C,7.42
+COMP024,Core Data Labs,Analytics,BI Analyst,Tier C,7.75
+COMP025,Micro Strategy,Consulting,Business Analyst,Tier A,25.6
+COMP026,Hyper Dynamics,Core Engineering,Electrical Engineer,Tier C,8.01
+COMP027,Core Investments,Finance,Financial Analyst,Tier C,9.42
+COMP028,BluePeak Systems,Technology,SDE,Tier A,20.54
+COMP029,Bright Consulting,Consulting,Strategy Analyst,Tier B,13.29
+COMP030,Bright Intelligence,Analytics,BI Analyst,Tier C,9.5
+COMP031,Micro Engineering,Core Engineering,Electrical Engineer,Tier B,11.89
+COMP032,Micro Labs,Technology,DevOps,Tier C,6.37
+COMP033,Orbit Investments,Finance,Financial Analyst,Tier C,7.12
+COMP034,Nova Strategy,Consulting,Strategy Analyst,Tier B,10.76
+COMP035,NextGen Engineering,Core Engineering,Mechanical Engineer,Tier B,13.61
+COMP036,Core Holdings,Finance,Financial Analyst,Tier B,11.34
+COMP037,Bright Strategy,Consulting,Business Analyst,Tier C,9.31
+COMP038,BluePeak Data Labs,Analytics,Data Analyst,Tier A,19.15
+COMP039,Vertex Finance,Finance,Financial Analyst,Tier A,25.7
+COMP040,Quantum Dynamics,Core Engineering,Mechanical Engineer,Tier B,14.37
