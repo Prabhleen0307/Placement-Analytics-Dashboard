@@ -1,97 +1,178 @@
 # 📊 Placement Analytics Dashboard
 
-An end-to-end analytical dashboard built in Power BI to evaluate placement performance using funnel diagnostics, company efficiency analysis, and student segmentation.
+An interactive Power BI dashboard designed to analyze campus placement performance through data-driven insights, hiring funnel analysis, student segmentation, and company-wise recruitment trends.
+
+This project focuses on understanding *why* placement gaps occur instead of only tracking final placement numbers. The dashboard helps uncover bottlenecks in the recruitment process, identify student performance patterns, and evaluate company hiring efficiency using visual analytics.
 
 ---
 
-## 🔎 Objective
+## 🚀 Project Overview
 
-Instead of focusing only on total placements, this project analyzes:
+The dashboard was built using structured placement datasets to simulate a real-world institutional analytics system. It combines multiple datasets and transforms them into actionable visual insights for placement teams, training departments, and academic decision-making.
 
-- Funnel leakage across placement stages  
-- Company hiring efficiency  
-- Industry-wise hiring performance  
-- Branch × CGPA placement segmentation  
-- Package distribution trends  
+The project analyzes:
 
-The goal is to identify inefficiencies and actionable improvement areas.
-
----
-
-## 📂 Dataset Structure
-
-**students_cleaned.csv**  
-- Student ID  
-- Branch  
-- CGPA  
-- Graduation Year  
-
-**companies_cleaned.csv**  
-- Company ID  
-- Industry  
-- Tier  
-
-**applications_cleaned.csv**  
-- Application tracking across stages  
-
-**offers_cleaned.csv**  
-- Offer outcomes  
-- Package (LPA)  
+* Placement funnel drop-offs
+* Student placement patterns
+* Company hiring behavior
+* Branch-wise performance
+* Package distribution trends
+* CGPA-to-package relationship
+* Hiring conversion efficiency
 
 ---
 
-## 📈 Dashboard Views
+## 📌 Problem Statement
 
-### 1️⃣ Placement Funnel Overview
-- Applicant → Shortlisted → Interviewed → Offered → Placed
-- Stage-wise drop analysis
-- Branch-level placement comparison
-- Company tier acceptance comparison
+Most placement reports only show:
 
-### 2️⃣ Company Performance Overview
-- Top hiring companies (volume)
-- Top companies by acceptance rate (conversion)
-- Industry-wise hiring vs placements
-- Hiring efficiency matrix (Offers vs Acceptance Rate)
+* total offers
+* highest package
+* placement percentage
 
-### 3️⃣ Student Segmentation Overview
-- Placement rate by Branch × CGPA segment
-- Package band distribution
-- CGPA vs Package correlation analysis
-- Interview-to-offer conversion by CGPA
+However, they fail to explain:
+
+* where students are getting filtered out
+* which companies convert better
+* which student segments require intervention
+* whether high hiring volume actually leads to successful placements
+
+This dashboard was built to bridge that gap using business intelligence and visual analytics.
 
 ---
 
-## 📊 Key Insights
+# 📈 Dashboard Modules
 
-- Largest drop observed at Interview → Offer stage  
-- High hiring volume does not guarantee high acceptance  
-- Certain mid-CGPA segments underperform in specific branches  
-- CGPA influences salary outcomes but not linearly  
+## 1️⃣ Placement Funnel Overview
 
----
+Analyzes the complete recruitment pipeline:
 
-## 🛠 Tools Used
+Applicant → Shortlisted → Interviewed → Offered → Placed
 
-- Power BI  
-- DAX  
-- Data Modeling  
-- Funnel Analysis  
-- Segmentation Framework  
+### Key Highlights
 
----
-
-## 📌 Business Impact
-
-This dashboard enables institutions to:
-
-- Identify inefficiencies in the placement funnel  
-- Improve company partnership strategy  
-- Provide targeted student interventions  
-- Monitor salary distribution trends  
+* Funnel leakage analysis
+* Stage-wise conversion tracking
+* Branch-level placement comparison
+* Tier-wise hiring performance
+* Recruitment bottleneck identification
 
 ---
 
-## 👩‍💻 Author
+## 2️⃣ Company Performance Analysis
 
-Keeratjot Kaur  
+Evaluates company hiring efficiency and recruitment outcomes.
+
+### Insights Covered
+
+* Top recruiters by hiring volume
+* Highest offer conversion companies
+* Industry-wise placement contribution
+* Acceptance rate comparison
+* Hiring efficiency matrix
+
+---
+
+## 3️⃣ Student Segmentation Dashboard
+
+Segments students based on academic and placement metrics.
+
+### Analytics Included
+
+* Branch × CGPA placement rate analysis
+* Package band distribution
+* CGPA vs Package correlation
+* Interview-to-offer conversion trends
+* Performance segmentation across departments
+
+---
+
+# 📊 Major Insights Derived
+
+* Significant candidate drop-off occurs during the Interview → Offer stage.
+* High recruitment volume does not always translate into higher placement success.
+* Certain mid-CGPA student groups consistently underperform across specific branches.
+* CGPA impacts salary outcomes, but the relationship is not strictly linear.
+* Some companies maintain high conversion efficiency despite lower hiring volume.
+
+---
+
+# 🗂 Dataset Used
+
+The project uses cleaned and structured CSV datasets containing:
+
+### Student Data
+
+* Student ID
+* Branch
+* CGPA
+* Graduation Year
+
+### Company Data
+
+* Company ID
+* Industry
+* Hiring Tier
+
+### Application Data
+
+* Placement stages
+* Interview tracking
+* Offer status
+
+### Offer Data
+
+* Salary package (LPA)
+* Final placement outcomes
+
+---
+
+# 🛠 Tech Stack & Tools
+
+* Power BI
+* DAX
+* Data Modeling
+* Power Query
+* Data Cleaning
+* Funnel Analytics
+* Business Intelligence
+* Interactive Data Visualization
+
+---
+
+# 🎯 Business Value
+
+This dashboard can help placement cells and institutions:
+
+* Identify placement funnel inefficiencies
+* Improve company engagement strategies
+* Track department-wise placement health
+* Design targeted student interventions
+* Monitor salary and hiring trends effectively
+* Support data-driven placement planning
+
+---
+
+# 📷 Dashboard Preview
+
+## Student Segmentation Overview
+
+Provides placement distribution, package analysis, and CGPA segmentation insights.
+
+## Company Performance Overview
+
+Tracks recruiter contribution, acceptance efficiency, and industry hiring trends.
+
+## Placement Funnel Overview
+
+Visualizes recruitment pipeline conversion and stage-wise candidate drop-offs.
+
+---
+
+# 👩‍💻 Developed By
+
+**Prabhleen Kaur**
+
+
+Focused on building practical, insight-driven projects combining analytics, visualization, and business problem solving.
+
